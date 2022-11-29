@@ -1,95 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
-  <body>
-    <header>
-      <p class="logo"><span class="span-logo">Web</span>Studio</p>
-      <nav class="nav">
-        <a href="" class="nav-href">Студія</a>
-        <a href="" class="nav-href">Портфоліо</a>
-        <a href="" class="nav-href">Контакти</a>
-      </nav>
-      <div class="contacts">
-        <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-        <a href="tel:+38 096 111 11 11">+38 096 111 11 11</a>
-      </div>
-    </header>
-    <main>
-      <div class="main-head">
-        <h1>Ефективні рішення для вашого бізнесу</h1>
-        <a href="#">Замовити послугу</a>
-      </div>
-      <div class="features">
-        <div class="features-blocks">
-          <p class="title">УВАГА ДО ДЕТАЛЕЙ</p>
-          <p class="discription">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+</head>
+
+<body>
+  <header>
+    <a href="#"><span class="span-logo">Web</span>Studio</p></a>
+    <nav class="nav">
+      <a href="#studio" class="nav-href">Студія</a>
+      <a href="#portfolio" class="nav-href">Портфоліо</a>
+      <a href="#contacts" class="nav-href">Контакти</a>
+    </nav>
+    <div class="contacts">
+      <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+      <a href="tel:+380961111111">+38 096 111 11 11</a>
+    </div>
+  </header>
+  <main>
+    <div class="main-head">
+      <h1>Ефективні рішення для вашого бізнесу</h1>
+      <button type="button">Замовити послугу</button>
+    </div>
+    <div class="features">
+      <div class="features-blocks">
+        <ul class="features-blocks-ul">
+          <li class="title">УВАГА ДО ДЕТАЛЕЙ</li>
+          <li class="discription">
             Ідейні міркування, і навіть початок повсякденної роботи з формування
             позиції.
-          </p>
-        </div>
-        <div class="features-blocks">
-          <p class="title">ПУНКТУАЛЬНІСТЬ</p>
-          <p class="discription">
+          </li>
+        </ul>
+      </div>
+      <div class="features-blocks">
+        <ul class="features-blocks-ul">
+          <li class="title">ПУНКТУАЛЬНІСТЬ</li>
+          <li class="discription">
             Завдання організації, особливо рамки і місце навчання кадрів тягне у
             себе.
-          </p>
-        </div>
-        <div class="features-blocks">
-          <p class="title">ПЛАНУВАННЯ</p>
-          <p class="discription">
+          </li>
+        </ul>
+      </div>
+      <div class="features-blocks">
+        <ul class="features-blocks-ul">
+          <li class="title">ПЛАНУВАННЯ</li>
+          <li class="discription">
             Так само консультація з широким активом значною мірою зумовлює.
-          </p>
-        </div>
-        <div class="features-blocks">
-          <p class="title">СУЧАСНІ ТЕХНОЛОГІЇ</p>
-          <p class="discription">
+          </li>
+        </ul>
+      </div>
+      <div class="features-blocks">
+        <ul class="features-blocks-ul">
+          <li class="title">СУЧАСНІ ТЕХНОЛОГІЇ</li>
+          <li class="discription">
             Значимість цих проблем настільки очевидна, що реалізація планових
             завдань.
-          </p>
-        </div>
+          </li>
+        </ul>
       </div>
-      <div class="occupation">
-        <h3>Чим ми займаємось</h3>
-        <img src="image/workspace2.jpg" alt="" class="occupation-img" />
-        <img src="image/workspace.jpg" alt="" class="occupation-img" />
-        <img src="image/workspace3.jpg" alt="" class="occupation-img" />
+    </div>
+    <div id="studio" class="occupation ">
+      <h2>Чим ми займаємось</h2>
+      <img src="image/workspace2.jpg" alt="workspace-image" class="occupation-img" width="370" height="294" />
+      <img src="image/workspace.jpg" alt="workspace-image" class="occupation-img" width="370" height="294" />
+      <img src="image/workspace3.jpg" alt="workspace-image" class="occupation-img" width="370" height="294" />
+    </div>
+    <div id="portfolio" class="our-team ">
+      <h2 class="our-team-h2">Наша команда</h2>
+      <div class="our-team-blocks">
+        <img src="image/igor.jpg" alt="person foto" class="person-foto" width="270" height="260" />
+        <ul class="person-ul-text">
+          <li class="person-foto-name">Ігор Дем'яненко</li>
+          <li class="person-foto-discription">Product Designer</li>
+        </ul>
       </div>
-      <div class="our-team">
-        <h3 class="our-team-h3">Наша команда</h3>
-        <div class="our-team-blocks">
-          <img src="image/igor.jpg" alt="" class="person-foto" />
-          <p class="person-foto-name">Ігор Дем'яненко</p>
-          <p class="person-foto-discription">Product Designer</p>
-        </div>
-        <div class="our-team-blocks">
-          <img src="image/olga.jpg" alt="" class="person-foto" />
-          <p class="person-foto-name">Ольга Рєпіна</p>
-          <p class="person-foto-discription">Frontend Developer</p>
-        </div>
-        <div class="our-team-blocks">
-          <img src="image/mykola.jpg" alt="" class="person-foto" />
-          <p class="person-foto-name">Микола Тарасов</p>
-          <p class="person-foto-discription">Marketing</p>
-        </div>
-        <div class="our-team-blocks">
-          <img src="image/mykhailo.jpg" alt="" class="person-foto" />
-          <p class="person-foto-name">Михайло Єрмаков</p>
-          <p class="person-foto-discription">UI Designer</p>
-        </div>
+      <div class="our-team-blocks">
+        <img src="image/olga.jpg" alt="person foto" class="person-foto" width="270" height="260" />
+        <ul class="person-ul-text">
+          <li class=" person-foto-name">Ольга Рєпіна</li>
+          <li class="person-foto-discription">Frontend Developer</li>
+        </ul>
       </div>
-    </main>
-    <footer>
-      <h3><span class="logo-color">Web</span>Studio</h3>
-      <div class="footer-discription">
-        <p class="address">м. Київ, пр-т Лесі Українки, 26</p>
-        <a href="mailto:info@devstudio.com" class="contacts">info@devstudio.com</a>
-        <a href="tel:+38 096 111 11 11" class="contacts">+38 096 111 11 11</a>
+      <div class="our-team-blocks">
+        <img src="image/mykola.jpg" alt="person foto" class="person-foto" width="270" height="260" />
+        <ul class="person-ul-text">
+          <li class=" person-foto-name">Микола Тарасов</li>
+          <li class="person-foto-discription">Marketing</li>
+        </ul>
       </div>
-    </footer>
-  </body>
+      <div class="our-team-blocks">
+        <img src="image/mykhailo.jpg" alt="person foto" class="person-foto" width="270" height="260" />
+        <ul class="person-ul-text">
+          <li class=" person-foto-name">Михайло Єрмаков</li>
+          <li class="person-foto-discription">UI Designer</li>
+        </ul>
+      </div>
+    </div>
+  </main>
+  <footer id="contacts">
+    <h2><span class="logo-color">Web</span>Studio</h2>
+    <div class="footer-discription">
+      <address> class="address">м. Київ, пр-т Лесі Українки, 26</address>
+      <ul>
+        <li><a href="mailto:info@devstudio.com" class="contacts">info@devstudio.com</a></li>
+        <li><a href="tel:+380961111111" class="contacts">+38 096 111 11 11</a></li>
+      </ul>
+    </div>
+  </footer>
+</body>
+
 </html>

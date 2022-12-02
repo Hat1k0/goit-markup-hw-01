@@ -16,17 +16,25 @@
 
   <body>
     <header>
-      <a href="#"><span class="span-logo">Web</span>Studio</a>
+      <a class="head-logo" href="#"><span class="span-logo">Web</span>Studio</a>
       <nav class="nav">
         <ul>
-          <li><a href="index.html" class="nav-href">Студія</a></li>
-          <li><a href="portfolio.html" class="nav-href">Портфоліо</a></li>
-          <li><a href="#contacts" class="nav-href">Контакти</a></li>
+          <li><a href="index.html" class="nav-link">Студія</a></li>
+          <li><a href="portfolio.html" class="nav-link">Портфоліо</a></li>
+          <li><a href="#contacts" class="nav-link">Контакти</a></li>
         </ul>
       </nav>
-      <ul class="contacts">
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+      <ul class="head-contacts">
+        <li class="head-list-item-contacts">
+          <a class="head-contacts-link" href="mailto:info@devstudio.com"
+            >info@devstudio.com</a
+          >
+        </li>
+        <li class="head-list-item-contacts">
+          <a class="head-contacts-link" href="tel:+380961111111"
+            >+38 096 111 11 11</a
+          >
+        </li>
       </ul>
     </header>
     <main>
@@ -37,28 +45,28 @@
       <section class="features">
         <ul class="features-ul">
           <li class="features-list-item">
-            <h3 class="list-item-title">УВАГА ДО ДЕТАЛЕЙ</h3>
-            <p class="list-item-discription">
+            <h3 class="features-list-item-title">УВАГА ДО ДЕТАЛЕЙ</h3>
+            <p class="features-list-item-discription">
               Ідейні міркування, і навіть початок повсякденної роботи з
               формування позиції.
             </p>
           </li>
           <li class="features-list-item">
-            <h3 class="list-item-title">ПУНКТУАЛЬНІСТЬ</h3>
-            <p class="list-item-discription">
+            <h3 class="features-list-item-title">ПУНКТУАЛЬНІСТЬ</h3>
+            <p class="features-list-item-discription">
               Завдання організації, особливо рамки і місце навчання кадрів тягне
               у себе.
             </p>
           </li>
           <li class="features-list-item">
-            <h3 class="list-item-title">ПЛАНУВАННЯ</h3>
-            <p class="list-item-discription">
+            <h3 class="features-list-item-title">ПЛАНУВАННЯ</h3>
+            <p class="features-list-item-discription">
               Так само консультація з широким активом значною мірою зумовлює.
             </p>
           </li>
           <li class="features-list-item">
-            <h3 class="list-item-title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-            <p class="list-item-discription">
+            <h3 class="features-list-item-title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+            <p class="features-list-item-discription">
               Значимість цих проблем настільки очевидна, що реалізація планових
               завдань.
             </p>
@@ -66,19 +74,19 @@
         </ul>
       </section>
       <section class="occupation">
-        <h2 class="occupation-title-h">Чим ми займаємось</h2>
+        <h2 class="occupation-title">Чим ми займаємось</h2>
         <ul class="occupation-ul">
-          <li class="occupation-li">
+          <li class="occupation-list-item">
             <img
+              class="occupation-img"
               src="image/workspace2.jpg"
               alt="workspace-image"
-              class="occupation-img"
               width="370"
               height="294"
             />
           </li>
 
-          <li class="occupation-li">
+          <li class="occupation-list-item">
             <img
               src="image/workspace.jpg"
               alt="workspace-image"
@@ -87,7 +95,7 @@
               height="294"
             />
           </li>
-          <li class="occupation-li">
+          <li class="occupation-list-item">
             <img
               src="image/workspace3.jpg"
               alt="workspace-image"
@@ -99,9 +107,9 @@
         </ul>
       </section>
       <section id="portfolio" class="our-team">
-        <h2 class="our-team-h2">Наша команда</h2>
-        <ul class="our-team-blocks">
-          <li class="person-list-item">
+        <h2 class="our-team-title">Наша команда</h2>
+        <ul class="our-team-ul">
+          <li class="our-team-list-item">
             <img
               src="image/igor.jpg"
               alt="person foto"
@@ -113,8 +121,9 @@
             <h3 class="person-title-h">Ігор Дем'яненко</h3>
             <p class="person-discription-p">Product Designer</p>
           </li>
-          <li class="person-list-item">
-            <img class="person-foto"
+          <li class="our-team-list-item">
+            <img
+              class="person-foto"
               src="image/olga.jpg"
               alt="person foto"
               width="270"
@@ -125,7 +134,7 @@
             <p class="person-discription-p">Frontend Developer</p>
           </li>
 
-          <li class="person-list-item">
+          <li class="our-team-list-item">
             <img
               src="image/mykola.jpg"
               alt="person foto"
@@ -138,7 +147,7 @@
             <p class="person-discription-p">Marketing</p>
           </li>
 
-          <li class="person-list-item">
+          <li class="our-team-list-item">
             <img
               src="image/mykhailo.jpg"
               alt="person foto"
@@ -162,12 +171,14 @@
           <ul class="address-ul">
             <li class="address-list-item">м. Київ, пр-т Лесі Українки, 26</li>
             <li class="contact-list-item">
-              <a class="footer-link-mail" href="mailto:info@devstudio.com" 
+              <a class="footer-link-mail" href="mailto:info@devstudio.com"
                 >info@devstudio.com</a
               >
             </li>
             <li class="contact-list-item">
-              <a class="footer-link-num" href="tel:+380961111111" >+38 096 111 11 11</a>
+              <a class="footer-link-num" href="tel:+380961111111"
+                >+38 096 111 11 11</a
+              >
             </li>
           </ul>
         </address>
